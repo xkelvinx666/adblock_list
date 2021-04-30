@@ -26,7 +26,6 @@ exports.piholeList = [
     'https://v.firebog.net/hosts/static/w3kbl.txt',
     'https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt',
     'https://v.firebog.net/hosts/neohostsbasic.txt',
-    'https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt',
     'https://v.firebog.net/hosts/AdguardDNS.txt',
     'https://v.firebog.net/hosts/Admiral.txt',
     'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',
