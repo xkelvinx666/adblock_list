@@ -12,7 +12,6 @@ function hostsToDomins(text) {
         .replace(/127.0.0.1/g, '')
         .replace(/::1 /g, '')
         .split('\n')
-        .filter(t => !t.includes('#'))
         .map((t) => t.trim())
         .filter(t => !_.isEmpty(t)));
 }
