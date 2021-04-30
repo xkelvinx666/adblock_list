@@ -28,7 +28,6 @@ const main_handler = (event, context) => {
             .addConfig('user.name', 'daily update cmd')
             .addConfig('user.email', 'noone@nobody.com')
             .commit("daily update")
-            .addRemote('origin', 'https://github.com/xkelvinx666/adblock_list')
             .push(['-u', 'origin', 'master'], () => console.log('daily update done'));
     }).catch(console.log);
 };
