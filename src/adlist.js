@@ -19,13 +19,14 @@ exports.hostsList = [
     'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
     'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt',
     'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts',
-    'https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt'
+    'https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt',
+    'https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts',
+    'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt'
 ]
 
 exports.piholeList = [
     'https://v.firebog.net/hosts/static/w3kbl.txt',
     'https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt',
-    'https://v.firebog.net/hosts/neohostsbasic.txt',
     'https://v.firebog.net/hosts/AdguardDNS.txt',
     'https://v.firebog.net/hosts/Admiral.txt',
     'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',
