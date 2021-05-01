@@ -1,2 +1,2 @@
-const {updateDomains} = require('./lib');
+const {updateDomains} = require('./src/lib');
 updateDomains();

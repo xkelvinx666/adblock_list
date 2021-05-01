@@ -22,7 +22,6 @@ yarn-error.log*
 
 # builder test files
 __tests__
-src
 dist
 
 # package-lock file
