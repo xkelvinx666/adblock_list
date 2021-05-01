@@ -1,0 +1,26 @@
+name: Build AD List
+
+on:
+  schedule:
+    - cron:  '0 2 * * *'
+
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: 14.16.1
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run build
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: |
+            dist

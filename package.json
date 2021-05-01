@@ -1,0 +1,19 @@
+{
+  "name": "pihole-blocklist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.4",
+    "fs-extra": "^9.1.0",
+    "lodash": "^4.17.21"
+  }
+}
