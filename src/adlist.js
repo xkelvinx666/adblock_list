@@ -22,7 +22,9 @@ exports.hostsList = [
     'https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt',
     'https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts',
     'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
-    'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts'
+    'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts',
+    'https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts',
+    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
 ]
 
 exports.piholeList = [
