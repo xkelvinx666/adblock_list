@@ -19,6 +19,10 @@ jobs:
       matrix:
         node-version: [14.16.1]
     steps:
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Asia/China"
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: npm install, build, and test
