@@ -1,10 +1,6 @@
 exports.hostsList = [
     'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',
     'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts',
-    'https://someonewhocares.org/hosts/zero/hosts',
-    'https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts',
-    'https://winhelp2002.mvps.org/hosts.txt',
-    'https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt',
     'https://adaway.org/hosts.txt',
     'https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt',
     'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext',
@@ -14,22 +10,12 @@ exports.hostsList = [
     'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts',
     'https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt',
     'https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt',
-    'https://raw.githubusercontent.com/Kees1958/W3C_annual_most_used_survey_blocklist/master/TOP_EU_US_Ads_Trackers_HOST',
-    'https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt',
-    'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
-    'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt',
     'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts',
     'https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt',
-    'https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts',
-    'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
-    'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts',
-    'https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts',
-    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
 ]
 
 exports.piholeList = [
     'https://v.firebog.net/hosts/static/w3kbl.txt',
-    'https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt',
     'https://v.firebog.net/hosts/AdguardDNS.txt',
     'https://v.firebog.net/hosts/Admiral.txt',
     'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',
@@ -45,6 +31,5 @@ exports.piholeList = [
     'https://phishing.army/download/phishing_army_blocklist_extended.txt',
     'https://v.firebog.net/hosts/Shalla-mal.txt',
     'https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt',
-    'https://raw.githubusercontent.com/HorusTeknoloji/TR-PhishingList/master/url-lists.txt',
-    'https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser'
+    'https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser',
 ]
