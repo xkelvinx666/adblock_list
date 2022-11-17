@@ -46,6 +46,11 @@ function toSurge2(text) {
     return text.split('\n').map(t => t.includes('#') ? t : `.${t}`).join('\n');
 }
 
+function toGeo(text) {
+    return text.split('\n').map(t => t.includes('#') ? t : `full:${t}`).join('\n');
+}
+
+
 exports.updateDomains = () => {
     const requests = [...hostsList, ...piholeList].map(url => axios.get(url));
     const distDic = path.resolve('dist');
@@ -59,7 +64,8 @@ exports.updateDomains = () => {
             fs.outputFile(`${distDic}/ad-guard-home.txt`, toAdGuardHome(text)),
             fs.outputFile(`${distDic}/surge.txt`, toSurge(text)),
             fs.outputFile(`${distDic}/surge2.txt`, toSurge2(text)),
-            fs.outputFile(`${distDic}/smart-dns.conf`, toSmartDNS(text))
+            fs.outputFile(`${distDic}/smart-dns.conf`, toSmartDNS(text)),
+            fs.outputFile(`${distDic}/geo-ad.txt`, toGeo(text))
         ]);
     }).catch(console.log);
 };

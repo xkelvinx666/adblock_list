@@ -1,4 +1,17 @@
 exports.hostsList = [
+    'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',
+    'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts',
+    'https://adaway.org/hosts.txt',
+    'https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt',
+    'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext',
+    'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',
+    'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts',
+    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
+    'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts',
+    'https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt',
+    'https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt',
+    'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts',
+    'https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt',
 ]
 
 exports.piholeList = [
