@@ -1,6 +1,4 @@
 exports.hostsList = [
-    'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',
-    'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts',
 ]
 
 exports.piholeList = [
