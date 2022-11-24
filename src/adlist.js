@@ -11,7 +11,6 @@ exports.hostsList = [
     'https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt',
     'https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt',
     'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts',
-    'https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt',
 ]
 
 exports.piholeList = [
